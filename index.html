@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="stylesheet" href="./src/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mahdi Elmi's Portfolio Site</title>
+  </head>
+
+  <body
+    class="m-0 grid grid-cols-12 grid-rows-layout gap-6 bg-stone-900 p-0 font-sans text-white selection:bg-amber-900 selection:text-white"
+  >
+    <nav
+      role="navigation"
+      class="col-span-12 row-span-1 flex flex-row justify-center"
+    >
+      <div
+        class="mx-2 flex w-full max-w-7xl items-center justify-center gap-6 p-2 md:justify-end"
+      >
+        <a
+          href="#work"
+          class="group relative text-3xl font-medium text-stone-300 transition-all duration-300 hover:text-white"
+        >
+          <span
+            class="absolute inset-x-0 -bottom-1.5 block h-1 origin-bottom-right scale-x-0 rounded bg-gradient-to-b from-amber-500 to-amber-600 transition-transform duration-200 group-hover:origin-bottom-left group-hover:scale-x-100"
+          ></span>
+          Work
+        </a>
+        <a
+          href="#about"
+          class="group relative text-3xl font-medium text-stone-300 transition-all duration-300 hover:text-white"
+        >
+          <span
+            class="absolute inset-x-0 -bottom-1.5 block h-1 origin-bottom-right scale-x-0 rounded bg-gradient-to-b from-amber-500 to-amber-600 transition-transform duration-200 group-hover:origin-bottom-left group-hover:scale-x-100"
+          ></span>
+          About
+        </a>
+        <a
+          href="#contact"
+          class="group relative text-3xl font-medium text-stone-300 transition-all duration-300 hover:text-white"
+        >
+          <span
+            class="absolute inset-x-0 -bottom-1.5 block h-1 origin-bottom-right scale-x-0 rounded bg-gradient-to-b from-amber-500 to-amber-600 transition-transform duration-200 group-hover:origin-bottom-left group-hover:scale-x-100"
+          ></span>
+          Contact
+        </a>
+      </div>
+    </nav>
+
+    <header
+      class="col-start-2 col-end-12 row-span-1 flex h-screen flex-col place-content-center items-center gap-8 md:items-start"
+    >
+      <h1
+        class="bg-gradient-to-tr from-white to-stone-200 bg-clip-text text-6xl font-semibold text-transparent"
+      >
+        Mahdi Elmi
+      </h1>
+      <p class="my-2 text-2xl text-stone-300">
+        A Front-End Developer based in Isfahan, Iran
+      </p>
+      <a
+        href="#contact"
+        class="group relative inline-flex w-fit place-items-center border-2 px-5 py-4 text-center text-3xl font-medium transition-all duration-200 hover:text-stone-900 active:border-stone-200 active:bg-stone-300"
+      >
+        <span
+          class="absolute inset-0 -z-10 block origin-bottom scale-y-0 bg-white transition-transform duration-300 group-hover:scale-y-100"
+        ></span>
+
+        Get In Touch
+      </a>
+    </header>
+
+    <section
+      class="col-start-2 col-end-12 row-span-1 flex flex-col gap-16"
+      id="work"
+    >
+      <div class="relative">
+        <h2 class="mb-5 text-5xl text-stone-100">My Work</h2>
+        <span
+          class="absolute left-1 block h-0.5 w-28 rounded bg-gradient-to-l from-amber-700 to-amber-500"
+        ></span>
+      </div>
+      <div class="my-3 flex flex-col-reverse gap-5 semilg:flex-row">
+        <div class="flex flex-col gap-5 semilg:w-5/12">
+          <h3 class="my-4 text-4xl text-stone-100">Quizzical App</h3>
+          <p class="text-lg text-stone-300">
+            A simple Quiz app where you choose a category and difficulty and get
+            random questions.
+          </p>
+          <ul class="list-inside list-disc text-xl text-stone-300">
+            <li>React</li>
+            <li>TypeScript</li>
+            <li>HTML</li>
+            <li>CSS</li>
+          </ul>
+          <div class="flex items-center gap-5">
+            <a
+              class="group relative cursor-pointer border-b-2 p-1 px-2 text-lg font-medium text-stone-200 duration-300 hover:border-b-amber-700 hover:text-black active:bg-stone-300"
+              href="https://comforting-heliotrope-f4c5bc.netlify.app/"
+              target="_blank "
+            >
+              Visit Site
+              <span
+                class="absolute inset-0 -z-10 block origin-left scale-x-0 bg-stone-200 transition-transform duration-300 group-hover:scale-x-100"
+              ></span>
+            </a>
+            <a
+              class="cursor-pointe h-8 w-8 transition-all duration-300 hover:scale-125"
+              href="https://github.com/mahdiElmi/Quizzical"
+              target="_blank"
+            >
+              <img class="" src="./src/github.svg" alt="github icon" />
+            </a>
+          </div>
+        </div>
+        <div class="flex items-center justify-center gap-5 semilg:w-7/12">
+          <div class="h-auto max-w-full overflow-hidden rounded shadow-lg">
+            <img
+              src="./Quizzical_1.png"
+              alt="screenshot of quizzical app in which five questions are answered but not scored"
+            />
+          </div>
+          <div class="h-auto max-w-full overflow-hidden rounded shadow-lg">
+            <img
+              src="./Quizzical_2.png"
+              alt="screenshot of quizzical app in which five questions are answered and one is scored as correct"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="my-3 flex flex-col-reverse gap-5 semilg:flex-row">
+        <div class="flex flex-col gap-5 semilg:w-5/12">
+          <h3 class="my-4 text-4xl text-stone-100">Yelp Camp</h3>
+          <p class="text-lg text-stone-300">
+            A yelp knockoff where you can create an account post, edit, rate,
+            comment and view different campsites. done during the Colt Steele's
+            The Web Developer Bootcamp.
+          </p>
+          <ul class="list-inside list-disc text-xl text-stone-300">
+            <li>Node.js</li>
+            <li>Express</li>
+            <li>MongoDB</li>
+            <li>EJS</li>
+            <li>Javascript</li>
+            <li>HTML</li>
+            <li>CSS</li>
+          </ul>
+          <div class="flex items-center gap-5">
+            <a
+              class="group relative cursor-pointer border-b-2 p-1 px-2 text-lg font-medium text-stone-200 duration-300 hover:border-b-amber-700 hover:text-black active:bg-stone-300"
+              href="https://yelpcamp-c62k.onrender.com/"
+              target="_blank"
+            >
+              Visit Site
+              <span
+                class="absolute inset-0 -z-10 block origin-left scale-x-0 bg-stone-200 transition-transform duration-300 group-hover:scale-x-100"
+              ></span>
+            </a>
+            <a
+              class="cursor-pointe h-8 w-8 transition-all duration-300 hover:scale-125"
+              href="https://github.com/mahdiElmi/yelpcamp"
+              target="_blank"
+            >
+              <img class="" src="./src/github.svg" alt="github icon" />
+            </a>
+          </div>
+        </div>
+        <div class="flex items-center justify-center gap-5 semilg:w-7/12">
+          <img
+            class="h-auto max-w-full rounded shadow-lg"
+            src="./YelpCamp.png"
+            alt="screenshot of a campsite posting on yelpcamp"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="col-start-2 col-end-12 row-span-1 flex flex-col place-content-center"
+      id="about"
+    >
+      <div class="relative mb-16">
+        <h2 class="mb-5 text-5xl text-stone-100">About Me</h2>
+        <span
+          class="absolute block h-0.5 w-28 rounded bg-gradient-to-l from-amber-700 to-amber-500"
+        ></span>
+      </div>
+      <p class="text-xl">
+        I'm a web developer based out of Isfahan, Iran. I always liked computers
+        and video games so naturally, I was curious about how things work in
+        computers so I started programming by learning C# and unity 5 years ago
+        and later switched to web development and started taking online courses
+        and self-teaching. So far I am confident in my TypeScript, React JS,
+        Tailwind CSS skills. My current goal is to start working as a web
+        developer, sharpen my skills and learn more.
+      </p>
+      <button
+        class="group relative mt-8 inline-flex w-fit place-items-center border-2 px-4 py-2 text-center text-xl font-medium transition-all duration-200 hover:text-stone-900 active:border-stone-200 active:bg-stone-300"
+      >
+        <span
+          class="absolute -inset-0 -z-10 block origin-bottom scale-y-0 bg-white transition-transform duration-300 group-hover:scale-y-100"
+        ></span>
+        My Resume
+      </button>
+    </section>
+
+    <section
+      class="col-start-2 col-end-12 row-span-1 flex flex-col place-content-center"
+      id="contact"
+    >
+      <div class="relative mb-16">
+        <h2 class="mb-5 text-5xl text-stone-100">Get in Touch</h2>
+        <span
+          class="absolute block h-0.5 w-28 rounded bg-gradient-to-l from-amber-700 to-amber-500"
+        ></span>
+      </div>
+      <p class="text-xl">
+        Please reach out if you have any questions! fastest way to contact me is
+        via email.
+      </p>
+      <a
+        href="mailto:mahdi.elmi.dev@gmail.com"
+        class="group relative mt-8 inline-flex w-fit place-items-center border-2 px-4 py-2 text-center text-xl font-medium transition-all duration-200 hover:text-stone-900 active:border-stone-200 active:bg-stone-300"
+      >
+        <span
+          class="absolute inset-0 -z-10 block origin-bottom scale-y-0 bg-white transition-transform duration-300 group-hover:scale-y-100"
+        ></span>
+        mahdi.elmi.dev@gmail.com
+      </a>
+    </section>
+
+    <footer
+      class="col-start-2 col-end-12 row-span-1 flex justify-center gap-4 border-t border-stone-800 pt-6"
+    >
+      <a
+        class="h-12 w-12 cursor-pointer opacity-80 transition-all hover:opacity-100"
+      >
+        <img class="" src="./src/linkedin.svg" alt="linkedin icon" />
+      </a>
+      <a
+        class="h-12 w-12 cursor-pointer opacity-80 transition-all hover:opacity-100"
+      >
+        <img class="" src="./src/github.svg" alt="github icon" />
+      </a>
+    </footer>
+  </body>
+</html>

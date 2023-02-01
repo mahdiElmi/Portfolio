@@ -5,6 +5,7 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="stylesheet" href="./src/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Mahdi Elmi's portfolio" />
     <title>Mahdi Elmi's Portfolio Site</title>
   </head>
 
@@ -110,22 +111,39 @@
               href="https://github.com/mahdiElmi/Quizzical"
               target="_blank"
             >
-              <img class="" src="./src/github.svg" alt="github icon" />
+              <img
+                class=""
+                decoding="async"
+                src="./src/github.svg"
+                alt="github icon"
+              />
             </a>
           </div>
         </div>
         <div class="flex items-center justify-center gap-5 semilg:w-7/12">
-          <div class="h-auto max-w-full overflow-hidden rounded shadow-lg">
-            <img
-              src="./Quizzical_1.png"
-              alt="screenshot of quizzical app in which five questions are answered but not scored"
-            />
+          <div class="aspect-[1.01/1] overflow-hidden rounded shadow-lg">
+            <picture>
+              <source type="image/webp" srcset="./Quizzical_1.webp" />
+              <source type="image/avif" srcset="./Quizzical_1.avif" />
+              <img
+                src="./Quizzical_1.png"
+                alt="screenshot of quizzical app in which five questions are answered but not scored"
+                loading="lazy"
+                decoding="async"
+              />
+            </picture>
           </div>
-          <div class="h-auto max-w-full overflow-hidden rounded shadow-lg">
-            <img
-              src="./Quizzical_2.png"
-              alt="screenshot of quizzical app in which five questions are answered and one is scored as correct"
-            />
+          <div class="aspect-[1.01/1] overflow-hidden rounded shadow-lg">
+            <picture>
+              <source type="image/webp" srcset="./Quizzical_2.webp" />
+              <source type="image/avif" srcset="./Quizzical_2.avif" />
+              <img
+                src="./Quizzical_2.png"
+                alt="screenshot of quizzical app in which five questions are answered and one is scored as correct"
+                loading="lazy"
+                decoding="async"
+              />
+            </picture>
           </div>
         </div>
       </div>
@@ -163,16 +181,27 @@
               href="https://github.com/mahdiElmi/yelpcamp"
               target="_blank"
             >
-              <img class="" src="./src/github.svg" alt="github icon" />
+              <img
+                class=""
+                decoding="async"
+                src="./src/github.svg"
+                alt="github icon"
+              />
             </a>
           </div>
         </div>
         <div class="flex items-center justify-center gap-5 semilg:w-7/12">
-          <img
-            class="h-auto max-w-full rounded shadow-lg"
-            src="./YelpCamp.png"
-            alt="screenshot of a campsite posting on yelpcamp"
-          />
+          <picture>
+            <source type="image/avif" srcset="./Yelpcamp.avif" />
+            <source type="image/webp" srcset="./Yelpcamp.webp" />
+            <img
+              class="aspect-[1.76/1] rounded shadow-lg"
+              src="./Yelpcamp.png"
+              alt="screenshot of a campsite posting on yelpcamp"
+              loading="lazy"
+              decoding="async"
+            />
+          </picture>
         </div>
       </div>
     </section>
@@ -240,14 +269,24 @@
         target="_blank"
         class="h-12 w-12 cursor-pointer opacity-80 transition-all hover:opacity-100"
       >
-        <img class="" src="./src/linkedin.svg" alt="linkedin icon" />
+        <img
+          class=""
+          decoding="async"
+          src="./src/linkedin.svg"
+          alt="linkedin icon"
+        />
       </a>
       <a
         href="https://github.com/mahdiElmi"
         target="_blank"
         class="h-12 w-12 cursor-pointer opacity-80 transition-all hover:opacity-100"
       >
-        <img class="" src="./src/github.svg" alt="github icon" />
+        <img
+          class=""
+          decoding="async"
+          src="./src/github.svg"
+          alt="github icon"
+        />
       </a>
     </footer>
   </body>
